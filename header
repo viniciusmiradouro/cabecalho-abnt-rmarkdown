@@ -1,0 +1,39 @@
+---
+lang: 
+date: 
+title: 
+author: Vinicius Miradouro Miranda
+geometry: "left=3cm,right=2cm,top=3cm,bottom=2cm"
+mainfont: arial
+fontsize: 12pt
+header-includes:
+    - \usepackage{bussproofs}
+    - \usepackage{cancel}
+output: 
+    word_document
+    pdf_document:
+        number_sections: true
+bibliography: /home//vm//documents//studies//.rmarkdown//bibliography.bib
+biblio-style: abnt
+---
+
+<!--Formatting settings-->
+
+\EnableBpAbbreviations
+
+\renewenvironment{quotation}
+  {\small\list{}{\rightmargin=0cm \leftmargin=4cm}%
+     \item\relax}
+       {\endlist}
+
+<!--Default page formatting-->
+
+\thispagestyle{empty}
+\pagestyle{empty}
+\tableofcontents
+\pagebreak
+\pagestyle{plain}
+\setcounter{page}{1}
+
+<!--Begin your text after this line-->
+
