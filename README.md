@@ -1,4 +1,4 @@
-# cabecalho-abnt-rmarkdown
+# Cabeçalho ABNT Rmarkdown
 
 Cabeçalho que visa providenciar formatação abnt a documentos escritos em Rmarkdown.
 
